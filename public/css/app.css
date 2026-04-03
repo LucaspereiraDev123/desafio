@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo{
+    width: 100%;
+    margin: 0 auto;
+}
+.conteudo-cabecalho {
+    background-color: rgb(34, 165, 56);
+    color: white;
+    text-align: center;
+}
+
+.conteudo-cabecalho nav {   
+    display: flex;
+    background-color: rgb(24, 172, 61);
+    align-items: center;
+}
+
+.conteudo-cabecalho nav li{
+    align-items: center;
+    text-decoration: none;
+}
+
+.conteudo-cabecalho nav li a {
+    text-decoration: none;
+}
+
+.conteudo-principal {
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+
+.conteudo-rodape {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+div.cabecalho > nav {
+    background-color: lightblue;
+}
+div.cabecalho > nav li {
+    display: inline-block;
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+div.cabecalho > nav a:link,
+div.cabecalho > nav a:active,
+div.cabecalho > nav a:visited {
+    text-decoration: none;
+    color: darkblue;
+    padding: 1rem;
+}
+div.cabecalho > nav li:hover,
+div.cabecalho > nav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+div.principal{
+    min-height: 400px;
+    background-color: beige;
+    padding: 2rem;
+}
+div.principal h2 {
+    border-bottom: medium darkblue solid;
+    font-family: Arial;
+    color: darkblue;
+    margin-bottom: 3rem;
+}
+div.principal p{
+    line-height: 1.5rem;
+}
+div.principal > footer{
+    background-color: lightblue;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+table.data-table{
+    border-spacing: 0;
+}
+table.data-table > thead{
+    background-color: darkblue;
+    color: white;
+}
+table.data-table td, th {
+    border: solid thin black;
+    padding: 5px;
+}
+table.data-table tfoot{
+    background-color: lightblue;
+}
+table.data-table > tbody > tr:hover{
+    background-color: lightcyan;
+    cursor: pointer;
+}
+form.formulario label {
+    display: block;
+    padding-bottom: 0.3rem;
+}
+form.formulario input[type=text], form.formulario input[type=number] {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+form.formulario input[type=submit], form.formulario input[type=reset], button{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
