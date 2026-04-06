@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Economiza Aí</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="icon" href="{{ asset('images/Logo 2.png') }}" type="image/png" size="16x16">
 </head>
 <body>
     <div class="cabecalho">

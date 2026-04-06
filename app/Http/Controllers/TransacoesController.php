@@ -43,7 +43,7 @@ class TransacoesController extends Controller
     {
         $transacao = new Transacao();
 
-        $transacao->nome = $request->input('nome');
+        $transacao->tipo = $request->input('tipo');
         $transacao->descricao = $request->input('descricao');
         $transacao->valor = $request->input('valor');
         $transacao->categoria_id = $request->input('categoria_id');
@@ -100,7 +100,7 @@ class TransacoesController extends Controller
     {
         $transacao = Transacao::find($id);
 
-        $transacao->nome = $request->input('nome');
+        $transacao->tipo = $request->input('tipo');
         $transacao->descricao = $request->input('descricao');
         $transacao->valor = $request->input('valor');
         $transacao->categoria_id = $request->input('categoria_id');
