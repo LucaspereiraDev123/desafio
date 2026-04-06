@@ -26,5 +26,8 @@ Route::post('/register', [UsuariosController::class, 'registerStore'])
 ->name('usuarios.registerStore');
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard')
-    ->middleware(Autenticador::class); 
+    ->middleware(Autenticador::class);
+    
+Route::get('/filtro', [DashboardController::class, 'filtroDashboard'])->name('filtro')
+    ->middleware(Autenticador::class);
 
